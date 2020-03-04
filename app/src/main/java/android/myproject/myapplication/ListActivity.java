@@ -30,7 +30,7 @@ public class ListActivity extends AppCompatActivity {
     }
 
     private void openListActivity() {
-        Intent intent= new Intent(this,DescriptionActivity.class);
+        Intent intent= new Intent(this,DeviceDetailActivity.class);
         startActivity(intent);
 
     }
